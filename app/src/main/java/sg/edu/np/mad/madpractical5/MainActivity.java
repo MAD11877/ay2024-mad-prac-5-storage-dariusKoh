@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        DBHandler handler = new DBHandler(this,null,null,1);
+        DatabaseHandler handler = new DatabaseHandler(this,null,null,1);
 
 //        Intent recieveIntentAdapter = getIntent();
 //        user.setName(recieveIntentAdapter.getExtras().getString("name","Name"));
