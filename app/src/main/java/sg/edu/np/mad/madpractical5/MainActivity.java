@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
             btnFollow.setText("Unfollow");
             Toast.makeText(MainActivity.this, "Followed", Toast.LENGTH_SHORT).show();
         }
+        //update
 
         // 5.1
         btnFollow.setOnClickListener(new View.OnClickListener() {
